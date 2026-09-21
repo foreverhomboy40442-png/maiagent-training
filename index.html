@@ -53,6 +53,15 @@ section h4{margin:16px 0 6px;font-size:15px}
 .callout.warn{border-color:#efcc80;background:#fff8e8}
 .callout.ok{border-color:#9ad4b5;background:#f1fbf5}
 .callout.bad{border-color:#f0b4b4;background:#fff4f3}
+.callout.practice{border-color:#ffd29a;background:#fff8f0;margin:16px 0 8px}
+.callout.practice .practice-title{font-size:15px;font-weight:750;color:#102033;margin:0 0 10px}
+.callout.practice dl{margin:0;display:grid;grid-template-columns:4.5em 1fr;gap:6px 10px}
+.callout.practice dt{color:var(--muted);font-weight:700}
+.callout.practice dd{margin:0}
+.callout.practice ol{margin:8px 0 0;padding-left:1.3em}
+.callout.practice li{margin:4px 0}
+.callout.practice a.btn{display:inline-block;margin-top:4px;background:var(--orange);color:#fff;font-weight:700;padding:8px 14px;border-radius:8px;text-decoration:none}
+.callout.practice a.btn:hover{filter:brightness(.95);text-decoration:none}
 .callout b.tag{display:inline-block;font-size:11px;letter-spacing:.04em;margin-bottom:6px;color:var(--amber)}
 .grid{display:grid;gap:12px}
 .grid.e4{grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
@@ -93,6 +102,8 @@ footer{color:var(--dim);font-size:12px;padding:24px 36px 40px}
     <div class="search-meta" id="qmeta"></div>
     <div class="search-hits" id="hits"></div>
   </div>
+  <div class="g">快捷</div>
+  <a class="toc" href="#practice">邊學邊做｜測試登入</a>
   <div class="g">目錄</div>
   <a class="toc" href="#company">1 公司介紹</a>
 <a class="toc" href="#product">2 產品介紹</a>
@@ -111,6 +122,25 @@ footer{color:var(--dim);font-size:12px;padding:24px 36px 40px}
     <h1>MaiAgent 產品教育訓練（完整版）</h1>
     <p>業務同仁｜思邁智能｜公司介紹・產品・客戶・模組・場景・方案。內容對齊教材畫布，原封移轉為單頁 HTML。</p>
     <p class="lead">建議順序：公司介紹 → 產品介紹 → 導入客戶 → 差異比較 → MaiGPT／Builder 模組 → 選型與場景 → 方案差異。</p>
+    <div class="callout practice" id="practice" data-keys="登入 註冊 測試 Token Demo 帳號 密碼 邊學邊做 MaiGPT">
+      <div class="practice-title">邊學邊做｜原廠測試環境</div>
+      <dl>
+        <dt>網站</dt>
+        <dd><a href="https://admin.maiagent.ai/maigpt" target="_blank" rel="noopener">MaiGPT - MaiAgent</a>
+          &nbsp;<a class="btn" href="https://admin.maiagent.ai/maigpt" target="_blank" rel="noopener">開啟平台</a></dd>
+        <dt>帳號</dt>
+        <dd>第一次請用<strong>公司信箱</strong>註冊</dd>
+        <dt>密碼</dt>
+        <dd>自設</dd>
+        <dt>備註</dt>
+        <dd>
+          <ol>
+            <li>原廠每月提供約 <strong>500 萬 Token</strong>（約值 NT$1 萬），請留意用量、避免不必要連續消耗。</li>
+            <li>僅供內部學習、評估，以及對客戶提案時的 Demo 演示；不得用於實際對外營業交付、營運上線，或其他涉及商業利益之用途。</li>
+          </ol>
+        </dd>
+      </dl>
+    </div>
   </header>
   <main>
 <div class="callout warn" style="margin:12px 36px 0"><b class="tag">公開版說明</b><div>本頁為樂雲智能 · MaiAgent 產品教育訓練公開版。方案數字為原廠建議售價／參考，<b>非樂雲報價</b>；案例與規模數字請標「廠商宣稱／原廠公開參考」。成交條件以當期報價與合約為準。</div></div>
